@@ -79,3 +79,18 @@ footer {
     width: 30px;
 }
 
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    nav, header, footer {
+        text-align: center;
+    }
+}
+
