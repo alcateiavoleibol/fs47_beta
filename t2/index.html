@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,25 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sistema de Bate-Ponto</title>
   <link rel="stylesheet" href="style.css">
-  </head>
+</head>
 <body>
 
-    <header>
-        <img src="images/logo.png" alt="Logo Forty Seven" class="logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="regras.html">Regras</a></li>
-                <li><a href="hierarquia.html">Hierarquia</a></li>
-				<li><a href="donate.html">Donate</a></li>
-				<li><a href="#">Parceria</a></li>
-            </ul>
-        </nav>
-    </header>
-
-  <h1>Bate-Ponto Semanal</h1>
+  <header>
+    <h1>Bate-Ponto Semanal</h1>
+    <p id="ultimaData">Último reset: --</p>
+    <p id="totalMembros">Total de membros: 0</p>
+  </header>
 
   <input type="text" id="nomeMembro" placeholder="Nome do membro" />
+  <input type="password" id="senhaAcao" placeholder="Senha para ações" />
   <button onclick="adicionarMembro()">Adicionar Membro</button>
 
   <div id="listaMembros"></div>

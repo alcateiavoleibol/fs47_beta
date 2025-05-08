@@ -1,4 +1,3 @@
-
 body {
   font-family: Arial, sans-serif;
   background: #f2f2f2;
@@ -28,7 +27,7 @@ input, button {
   padding-top: 20px;
 }
 
-.fun-permissao { border-color: #8B0000; }      /* Vermelho escuro */
-.fun-vigia { border-color: #800080; }          /* Roxo */
-.fun-assistente { border-color: #9370DB; }     /* Roxo claro */
-.fun-especial { border-color: #FFD700; }       /* Dourado */
+.fun-permissao { border-color: #8B0000; }
+.fun-vigia { border-color: #800080; }
+.fun-assistente { border-color: #9370DB; }
+.fun-especial { border-color: #FFD700; }
