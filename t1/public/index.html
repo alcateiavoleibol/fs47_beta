@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Bate-Ponto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Bate-Ponto Semanal</h1>
+
+  <input type="text" id="nomeMembro" placeholder="Nome do membro" />
+  <button onclick="adicionarMembro()">Adicionar Membro</button>
+
+  <div id="listaMembros"></div>
+
+  <div class="admin">
+    <h3>Área Administrativa</h3>
+    <input type="password" id="senhaAdmin" placeholder="Senha do admin" />
+    <button onclick="resetarHoras()">Resetar Semana (Sexta-feira)</button>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
