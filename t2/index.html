@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Bate-Ponto</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="Logo Forty Seven" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="regras.html">Regras</a></li>
+                <li><a href="hierarquia.html">Hierarquia</a></li>
+				<li><a href="donate.html">Donate</a></li>
+				<li><a href="#">Parceria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <h1>Bate-Ponto Semanal</h1>
+
+  <input type="text" id="nomeMembro" placeholder="Nome do membro" />
+  <button onclick="adicionarMembro()">Adicionar Membro</button>
+
+  <div id="listaMembros"></div>
+
+  <div class="admin">
+    <h3>Área Administrativa</h3>
+    <input type="password" id="senhaAdmin" placeholder="Senha do admin" />
+    <button onclick="resetarHoras()">Resetar Semana (Sexta-feira)</button>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
